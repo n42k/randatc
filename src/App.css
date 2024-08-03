@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+p {
+  font-size: calc(20px + 4vmin); /* Increase the font size significantly */
+  margin: 10px 0; /* Add some margin for better spacing */
+}
+
+button {
+  background-color: #61dafb;
+  border: none;
+  border-radius: 5px;
+  color: #282c34;
+  padding: 10px 20px;
+  font-size: calc(10px + 2vmin);
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+  background-color: #21a1f1;
+  transform: scale(1.05);
+}
+
+button:active {
+  background-color: #1b86c9;
+  transform: scale(0.95);
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(97, 218, 251, 0.5);
+}
